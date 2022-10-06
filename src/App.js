@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock';
+import Greeting from './Greeting';
+import LoginControl from './LoginControl';
+import Message from './Message';
+import NumberList from './NumberList';
+import ToggleButton from './ToggleButtton';
+import UserForm from './UserForm';
+import Welcome from './Welcome';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <UserForm />
     </div>
   );
 }
